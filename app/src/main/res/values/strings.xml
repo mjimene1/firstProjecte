@@ -3,7 +3,7 @@
     <string name="hint_nom">Introdueix el teu nom</string>
     <string name="literal_nom">Introdueix el teu nom:</string>
     <string name="literal_OK">OK</string>
-    <string name="red">Vermell</string>
+    <string name="red">Rojo</string>
     <string name="green">Verd</string>
     <string name="blue">Blau</string>
 </resources>
