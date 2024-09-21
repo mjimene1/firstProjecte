@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/literal_nom"
+        android:textSize="@dimen/sizeText"
+        android:textStyle="bold|italic"
+        android:textColor="#ffa000"
+        android:background="#a0a0a0"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sizeText"
+        android:hint="@string/hint_nom"/>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/literal_OK"
+        android:textSize="@dimen/sizeText"/>
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sizeText"/>
+
+    <RadioGroup
+        android:id="@+id/grpColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/paddingRadio">
+        <RadioButton
+            android:id="@+id/RbRed"
+            android:text="@string/red"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sizeTextRadio"/>
+        <RadioButton
+            android:id="@+id/RbGreen"
+            android:text="@string/green"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sizeTextRadio"/>
+        <RadioButton
+            android:id="@+id/RbBlue"
+            android:text="@string/blue"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sizeTextRadio"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/lblColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sizeTextRadio"/>
+
+</LinearLayout>
